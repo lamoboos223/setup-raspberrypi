@@ -27,7 +27,7 @@ apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 apt update
 apt install python3.9
 apt install python3-pip
-curl -s https://raw.githubusercontent.com/lamoboos223/setup-raspberrypi/master/requirements.txt | pip install -r
+curl -s https://raw.githubusercontent.com/lamoboos223/setup-raspberrypi/master/python-packages.sh | bash
 
 # java
 apt update && apt upgrade -y
