@@ -32,6 +32,7 @@ curl -s https://raw.githubusercontent.com/lamoboos223/setup-raspberrypi/master/p
 # java
 apt update && apt upgrade -y
 apt install default-jdk -y
+apt install maven
 
 # Mysql
 apt update
